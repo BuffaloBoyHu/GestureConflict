@@ -1,0 +1,6 @@
+framework module Pods_GestureConflictUITests {
+  umbrella header "Pods-GestureConflictUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

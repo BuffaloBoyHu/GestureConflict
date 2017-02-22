@@ -55,6 +55,9 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         case 1:
             let pageController = PageViewController()
             self.navigationController?.pushViewController(pageController, animated: true)
+        case 2:
+            let imageController = ImageViewController()
+            self.navigationController?.pushViewController(imageController, animated: true)
         default:
             break
         }

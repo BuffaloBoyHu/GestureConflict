@@ -1,0 +1,17 @@
+PODS:
+  - PhotoBrowser (1.0.6):
+    - SDWebImage
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+
+DEPENDENCIES:
+  - PhotoBrowser (~> 1.0.6)
+
+SPEC CHECKSUMS:
+  PhotoBrowser: 2f33f94d587652b1a9460dd52a479999ecf7e94c
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+
+PODFILE CHECKSUM: c9309b2b6a6713f96e9e7db2e62bdb49e0b23660
+
+COCOAPODS: 1.2.0

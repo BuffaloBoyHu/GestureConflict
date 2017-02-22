@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>PhotoBrowser.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Pods-GestureConflict.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Pods-GestureConflictTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Pods-GestureConflictUITests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>SDWebImage.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>10BAB85C000542291F9BF9400F986DF1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>37BDC7C4AF37BFD909FD5F358FE6F2B6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5307D699A00BA876BEACE4E7E2323984</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8B45DD69836CEBF5C75488EF7FF78A84</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A49A3F35C79D0DB355E8F4D4793D5313</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

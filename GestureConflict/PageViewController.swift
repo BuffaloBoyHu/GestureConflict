@@ -116,11 +116,12 @@ class PageViewController: UIPageViewController,UITableViewDelegate,UITableViewDa
     }
     
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
-        
+    
     }
     
     func tableView(_ tableView: UITableView, titleForDeleteConfirmationButtonForRowAt indexPath: IndexPath) -> String? {
         return "删除"
     }
+    
 
 }
