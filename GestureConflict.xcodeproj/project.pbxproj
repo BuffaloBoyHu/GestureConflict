@@ -14,6 +14,8 @@
 		7ADE2EF51E5C474A009D462A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ADE2EF31E5C474A009D462A /* LaunchScreen.storyboard */; };
 		7ADE2F001E5C474A009D462A /* GestureConflictTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADE2EFF1E5C474A009D462A /* GestureConflictTests.swift */; };
 		7ADE2F0B1E5C474A009D462A /* GestureConflictUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ADE2F0A1E5C474A009D462A /* GestureConflictUITests.swift */; };
+		BE58A2681E5CFC9900D1042B /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE58A2671E5CFC9900D1042B /* PageViewController.swift */; };
+		BEFC28511E5C719E00420687 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFC28501E5C719E00420687 /* ScrollViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		7ADE2F061E5C474A009D462A /* GestureConflictUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GestureConflictUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ADE2F0A1E5C474A009D462A /* GestureConflictUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureConflictUITests.swift; sourceTree = "<group>"; };
 		7ADE2F0C1E5C474A009D462A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE58A2671E5CFC9900D1042B /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		BEFC28501E5C719E00420687 /* ScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				7ADE2EEA1E5C474A009D462A /* AppDelegate.swift */,
 				7ADE2EEC1E5C474A009D462A /* ViewController.swift */,
+				BEFC28501E5C719E00420687 /* ScrollViewController.swift */,
+				BE58A2671E5CFC9900D1042B /* PageViewController.swift */,
 				7ADE2EEE1E5C474A009D462A /* Main.storyboard */,
 				7ADE2EF11E5C474A009D462A /* Assets.xcassets */,
 				7ADE2EF31E5C474A009D462A /* LaunchScreen.storyboard */,
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7ADE2EED1E5C474A009D462A /* ViewController.swift in Sources */,
+				BEFC28511E5C719E00420687 /* ScrollViewController.swift in Sources */,
 				7ADE2EEB1E5C474A009D462A /* AppDelegate.swift in Sources */,
+				BE58A2681E5CFC9900D1042B /* PageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +511,7 @@
 				7ADE2F111E5C474A009D462A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7ADE2F121E5C474A009D462A /* Build configuration list for PBXNativeTarget "GestureConflictTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +520,7 @@
 				7ADE2F141E5C474A009D462A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7ADE2F151E5C474A009D462A /* Build configuration list for PBXNativeTarget "GestureConflictUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +529,7 @@
 				7ADE2F171E5C474A009D462A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
